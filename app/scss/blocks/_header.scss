@@ -1,0 +1,24 @@
+/* Header */ 
+.header {
+  padding: 50px 60px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: 1px solid #dde2e7;
+}
+
+.header__social {
+
+}
+.header__logo {
+
+}
+
+.header__searche-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 45px;
+}

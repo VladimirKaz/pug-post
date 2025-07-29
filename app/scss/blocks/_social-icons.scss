@@ -1,0 +1,14 @@
+/* Social icons */
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.socoal-icons__item {
+  transition: all .2s ease-in;
+
+  &:hover {
+    transform: scale(110%);
+  }
+}

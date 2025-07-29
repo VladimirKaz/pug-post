@@ -1,0 +1,34 @@
+.widget-insta {
+  padding-top: 40px;
+  padding-bottom: 30px;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.widget-insta__item {
+
+  & img {
+    width: 120px;
+    height: 100px;
+    border-radius: 2px;
+    object-fit: cover;
+
+    transition: all .1s ease-in;  
+  }
+
+  & img:hover {
+    transform: scale(105%);
+  }
+
+  &:nth-child(odd) {
+    margin-right: 30px;
+  }
+
+  margin-bottom: 30px;
+
+  &:last-child,
+  &:last-child(2) {
+    margin-bottom: 0;
+  }
+}

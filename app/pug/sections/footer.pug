@@ -1,0 +1,26 @@
+- const footerNavFirst = [{title: 'Latest Posts', link: '#!'}, {title: 'Popular Posts', link: '#!'}]
+- const footerNavSecond = [{title: 'Search', link: '#!'}, {title: 'Contact Information', link: '#!'}]
+- const footerNavThird = [{title: 'Privacy Policy', link: '#!'}, {title: 'Terms of Use', link: '#!'}]
+
+footer
+  .footer 
+    .container 
+      .row 
+        .col-3 
+          ul.footer-nav 
+            +footer-nav-item('Latest Posts', link='#!')
+            
+            +footer-nav-item('Popular Posts', link='#!')
+        .col-3 
+          +footer-nav(footerNavSecond)
+        .col-3 
+          +footer-nav(footerNavThird)
+        .col-3 
+          include ./social-icons.pug
+
+          
+          
+  .copy-right
+    .container
+      .copy-right__text  copyright 2019.All rights reserved.
+    

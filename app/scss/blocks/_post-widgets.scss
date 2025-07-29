@@ -1,0 +1,49 @@
+.post-widget {
+  padding: 40px 0;
+
+  text-align: center;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid #dde2e7;
+  }
+}
+
+.post-widget__img {
+  margin-bottom: 25px;
+
+  & img {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    object-fit: cover;
+  }
+}
+
+.post-widget__title {
+  margin-bottom: 25px;
+
+  font-family:'Playfair Display' ,serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #1a1a1a;
+
+  & a {
+    color: #1a1a1a;
+    text-decoration: none;
+
+    transition: 
+      all .2s ease-in;
+  }
+
+  & a:hover {
+    color: #2b63ca;
+    text-decoration: underline;
+  }
+}
+
+.post-widget__info {
+  font-size: 12px;
+  font-weight: 500;
+  color: #b0b0b0;
+  text-transform: uppercase;
+}

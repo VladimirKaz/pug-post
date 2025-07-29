@@ -1,0 +1,17 @@
+// fonts
+@import url(https://fonts.googleapis.com/css?family=Exo:100,200,300,regular,500,600,700,800,900,100);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Playfair:300,400,regular,500);
+
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Playfair Display', serif;
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+
+.container {
+  min-width: 1200px;
+}

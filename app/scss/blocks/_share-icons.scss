@@ -1,0 +1,14 @@
+/* Share icons */ 
+.share-icons {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.share-icons__item {
+  transition: transform .2s ease-in;
+  
+  &:hover {
+    transform: scale(110%);
+  }
+}

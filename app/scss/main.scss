@@ -1,0 +1,21 @@
+// libs
+@use './libs/bootstrap-reboot';
+@use './libs/bootstrap-grid';
+
+// Base scss
+@use './base/base';
+
+// Block
+@use './blocks/header';
+@use './blocks/social-icons';
+@use './blocks/logo';
+@use './blocks/btns';
+@use './blocks/post';
+@use './blocks/share-icons';
+@use './blocks/pagination';
+@use './blocks/widget';
+@use './blocks/post-widgets';
+@use './blocks/widget-insta';
+@use './blocks/copyright';
+@use './blocks/footer';
+@use './blocks/footer-nav';
